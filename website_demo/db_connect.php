@@ -1,5 +1,5 @@
 <?php
-	$connection = mysqli_connect('localhost', 'niramay', 'Unique123!');
+	$connection = mysqli_connect('localhost', 'niramay', '<password>');
 	if (!$connection) {
 		die("Database Connection Failed" . mysqli_error($connection));
 	}
